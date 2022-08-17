@@ -7,40 +7,44 @@
 }
 
 body {
-    font-family: montserrat, sans-serif;
+    font-family: Montserrat, sans-serif;
     font-weight: 300;
     color: darkslategray
-}
-
-a:link {
-    text-decoration: none;
 }
 
 /* logo and navigation links */
 
 #logo {
-    display: flex;
-    justify-content: flex-start;
-}
-
-#logo {
     font-family: sacramento, sans-serif;
     font-size: 300%;
-    color:#bc5a41;
-    margin: 10px 10 px;
-    padding: 10px;
+    padding: 10px 0 10px 10px;
+     
 }
 
-#links {
+.nav-bar {
     display: flex;
-    list-style: none;
-    justify-content: flex-end;    
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffc5a6;    
 }
 
-#links > li {
-    margin: 10px;
-        
+.links {
+    list-style: none;
 }
+
+ .links .list-items {
+    display: inline-block;
+    margin: 0 10px;    
+}
+
+.nav-bar a {
+    color: #bc5a41;
+    text-decoration: none;
+}
+    
+
+
+
 
 
 
