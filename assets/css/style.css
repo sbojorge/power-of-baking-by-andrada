@@ -1,3 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&family=Sacramento&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
 body {
-    font-family: arial;
+    background-color: #ffffd0;
+    font-family: montserrat, sans-serif;
+    font-weight: 300;
+    color: darkslategray
+}
+
+#logo {
+    font-family: sacramento, sans-serif;
+    font-size: 300%;
+    color:#bc5a41;
+}
+
+a:link {
+    text-decoration: none;
 }
