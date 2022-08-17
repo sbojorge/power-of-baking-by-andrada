@@ -7,18 +7,42 @@
 }
 
 body {
-    background-color: #ffffd0;
     font-family: montserrat, sans-serif;
     font-weight: 300;
     color: darkslategray
+}
+
+a:link {
+    text-decoration: none;
+}
+
+/* logo and navigation links */
+
+#logo {
+    display: flex;
+    justify-content: flex-start;
 }
 
 #logo {
     font-family: sacramento, sans-serif;
     font-size: 300%;
     color:#bc5a41;
+    margin: 10px 10 px;
+    padding: 10px;
 }
 
-a:link {
-    text-decoration: none;
+#links {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;    
 }
+
+#links > li {
+    margin: 10px;
+        
+}
+
+
+
+
+
