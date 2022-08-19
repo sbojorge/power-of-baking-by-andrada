@@ -57,6 +57,37 @@ body {
     background-size: cover;   
 }
 
+/* About me */
+
+#welcome {
+    text-align: center;
+    font-family: Sacramento, sans-serif;
+    font-size: 50px;
+    margin: 10px 0 10px 0;
+    padding: 10px  0 10px 0;
+ 
+}
+
+.abt-me {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+}
+
+.abt-me > img {
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    margin: 10px 0 10px 0;    
+}
+
+.abt-me > p {
+    text-align: center;
+    line-height: 2.5;
+}
+
+
+
 
 
 
