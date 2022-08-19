@@ -88,14 +88,9 @@ body {
 
 /* Gallery */
 
-.photos {
+.class {
     display: flex;
     flex-wrap: wrap;
-}
-
-.photos {
-    flex: 50%;
-    max-width: 20%;
 }
 
 
