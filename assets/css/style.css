@@ -16,7 +16,8 @@ body {
 
 #logo {
     font-family: sacramento, sans-serif;
-    font-size: 300%;     
+    font-size: 300%;
+    margin-bottom: 10px;     
 }
 
 .nav-bar {
@@ -52,8 +53,8 @@ body {
 #header-image {
     height: 600px;
     width: 100%;
-    background: url('../images/Strawberry-cheesecake.webp') no-repeat center center;   
-
+    background: url('../images/Pavlova-net.webp');
+    background-size: cover;   
 }
 
 
