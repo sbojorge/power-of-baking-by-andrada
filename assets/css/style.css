@@ -87,11 +87,35 @@ body {
 }
 
 /* Gallery */
-
-.class {
+ 
+.container { 
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+       
 }
+
+.container .pictures {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.container .pictures .column {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+.container .pictures .column img {
+    width: 100%;
+}
+
+
+ 
+
 
 
 
