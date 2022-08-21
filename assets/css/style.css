@@ -92,8 +92,10 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center; 
-       
+    align-items: center;
+    background-color: aqua;
+    margin-top: 40px;
+    padding-top: 20px;       
 }
 
 .container .pictures {
