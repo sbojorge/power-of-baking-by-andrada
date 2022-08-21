@@ -115,6 +115,39 @@ body {
     width: 100%;
 }
 
+/* Reviews section*/
+
+.reviews {
+    display: flex;
+    
+    justify-content: space-around;
+    align-items: center;  
+    text-align: center;
+    margin: 20px;
+    padding: 10px; 
+}
+
+.reviews #tudor {
+    width: 200px;
+    height: 200px;
+    padding: 1% 1% 0 1%;
+    background-color:rgba(249, 239, 164, 1.0);						 ;
+} 
+
+.reviews #severine {
+    width: 275px;
+    height: 275px;
+    padding: 1% 1% 2.5% 1%;
+    background-color: rgba(255, 197, 166, 1.0);
+}
+
+.reviews #anca {
+    width: 200px;
+    height: 200px;
+    padding: 1% 1% 0 1%;
+    background-color:rgba(249, 149, 113, 1.0);
+}
+
 
  
 
