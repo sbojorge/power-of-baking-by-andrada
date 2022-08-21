@@ -9,7 +9,7 @@
 body {
     font-family: Montserrat, sans-serif;
     font-weight: 300;
-    color: rgb(84, 53, 141);
+    color: darkslategray
 }
 
 /* logo and navigation links */
@@ -93,7 +93,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: aqua;
     margin-top: 40px;
     padding-top: 20px;       
 }
@@ -115,23 +114,23 @@ body {
     width: 100%;
 }
 
-/* Reviews section*/
+/* Reviews section */
 
 .reviews {
-    display: flex;
-    
+    display: flex;    
     justify-content: space-around;
     align-items: center;  
     text-align: center;
     margin: 20px;
-    padding: 10px; 
+    padding: 10px;
 }
 
 .reviews #tudor {
     width: 200px;
     height: 200px;
     padding: 1% 1% 0 1%;
-    background-color:rgba(249, 239, 164, 1.0);						 ;
+    background-color:rgba(249, 239, 164, 1.0);
+    border-radius: 10px;					 ;
 } 
 
 .reviews #severine {
@@ -139,6 +138,7 @@ body {
     height: 275px;
     padding: 1% 1% 2.5% 1%;
     background-color: rgba(255, 197, 166, 1.0);
+    border-radius: 10px;
 }
 
 .reviews #anca {
@@ -146,7 +146,42 @@ body {
     height: 200px;
     padding: 1% 1% 0 1%;
     background-color:rgba(249, 149, 113, 1.0);
+    border-radius: 10px;
 }
+
+/* Footer section */
+
+.bottom {
+    display: flex;    
+    justify-content: space-around;
+    align-items: center;
+    background-color: #bc5a41;
+    height: 100px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.bottom > ul {
+    list-style: none;
+}
+
+.bottom li {
+    display:inline;
+}
+
+.bottom i {
+    font-size: 30px;
+    align-items: center;
+    color: darkslategray;   
+}
+
+
+    
+    
+
 
 
  
