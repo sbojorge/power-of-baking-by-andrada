@@ -114,7 +114,7 @@ body {
     width: 100%;
 }
 
-/* Reviews section */
+/* testimonials section */
 
 .reviews {
     display: flex;    
@@ -171,6 +171,24 @@ body {
     font-size: 30px;
     align-items: center;
     color: darkslategray;   
+}
+
+/* Shop page */
+
+.container-cakes {
+    display: flex;
+    flex-direction: column;
+}
+
+.shop-photo {
+    display: flex;
+    
+}
+
+.description {
+    width: 200px;
+    height: 200px;
+    background-color: aliceblue;
 }
 
 
