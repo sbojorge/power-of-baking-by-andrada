@@ -64,8 +64,7 @@ body {
     font-family: Sacramento, sans-serif;
     font-size: 50px;
     margin: 10px 0 10px 0;
-    padding: 10px  0 10px 0;
- 
+    padding: 10px  0 10px 0; 
 }
 
 .abt-me {
@@ -100,8 +99,7 @@ body {
 .container .pictures {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    
+    justify-content: center;    
 }
 
 .container .pictures .column {
@@ -130,7 +128,7 @@ body {
     height: 200px;
     padding: 1% 1% 0 1%;
     background-color:rgba(249, 239, 164, 1.0);
-    border-radius: 10px;					 ;
+    border-radius: 10px;					 
 } 
 
 .reviews #severine {
@@ -175,10 +173,23 @@ body {
 
 /* Shop page */
 
-.shop-photo {
+.shop-photos {
     display: flex;
     
     
+}
+
+
+
+
+
+
+
+/* Contact form */
+
+#form-backgr {
+    background-color: antiquewhite;   
+
 }
 
 
