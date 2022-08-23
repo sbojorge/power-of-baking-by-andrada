@@ -175,21 +175,15 @@ body {
 
 /* Shop page */
 
-.container-cakes {
-    display: flex;
-    flex-direction: column;
-}
-
 .shop-photo {
     display: flex;
     
+    
 }
 
-.description {
-    width: 200px;
-    height: 200px;
-    background-color: aliceblue;
-}
+
+
+
 
 
     
