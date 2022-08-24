@@ -14,15 +14,13 @@ body {
     color: #564146;
 }
 
-
-
-
 /* logo and navigation links */
 
 #logo {
     font-family: parisienne, sans-serif;
     font-size: 300%;
-    margin-bottom: 10px;     
+    margin-bottom: 20px;
+    padding: 10px 0 10px 10px;     
 }
 
 .nav-bar {
@@ -37,11 +35,11 @@ body {
 
  .links .list-items {
     display: inline-block;
-    margin: 0 10px;    
+    margin: 0 20px;    
 }
 
 .nav-bar a {
-    color: #bc5a41;
+    color:#73181E;
     text-decoration: none;
 }
 
@@ -59,7 +57,9 @@ body {
     height: 600px;
     width: 100%;
     background: url('../images/pavlova-net.webp');
-    background-size: cover;   
+    background-size: cover;
+    
+
 }
 
 /* About me */
@@ -156,7 +156,7 @@ body {
     display: flex;  
     flex-wrap: wrap;    
     align-items: center;
-    
+    background-color:#5defc1;
     height: 100px;
 }
 
@@ -195,6 +195,12 @@ body {
     background-color: aliceblue;
     background-image: url("assets/images/order-box.webp");  
 
+}
+
+/* Media queries */
+@media screen and (max-width: 950px) .list-items {
+    float: left;
+    
 }
 
 
