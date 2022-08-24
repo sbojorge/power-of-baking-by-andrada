@@ -17,7 +17,7 @@ body {
 /* logo and navigation links */
 
 #logo {
-    font-family: parisienne, sans-serif;
+    font-family: Parisienne, sans-serif;
     font-size: 300%;
     margin-bottom: 20px;
     padding: 10px 0 10px 10px;     
@@ -29,26 +29,27 @@ body {
     align-items: center;        
 }
 
-.links {
-    list-style: none;
-}
-
- .links .list-items {
-    display: inline-block;
-    margin: 0 20px;    
-}
-
 .nav-bar a {
     color:#73181E;
     text-decoration: none;
 }
 
+.links {
+    list-style: none;   
+}
+
+.links .list-items {
+    display: inline-block;
+    font-size: 18px;
+    margin: 0 20px; 
+}
+
 .list-items a:hover {
-    color: black;
+    font-size: 28px;
 }
 
 .current {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #465651;
 }
     
 /* header image */
@@ -198,30 +199,11 @@ body {
 }
 
 /* Media queries */
-@media screen and (max-width: 950px) .list-items {
-    float: left;
-    
+@media screen and (max-width:1240px) {
+    .links .list-items {
+        display: list-item;
+    }
+    #logo {
+        font-size: 150%; 
+    }
 }
-
-
-
-
-
-
-    
-    
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
