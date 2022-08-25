@@ -101,30 +101,22 @@ h2 {
 
 /* Gallery */
  
-.container { 
+.photos-contain {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
-    margin-top: 40px;
-    padding-top: 20px;       
 }
 
-.container .pictures {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;    
-}
-
-.container .pictures .column {
+.photos-contain .pictures .column {
     display: flex;
     flex-direction: column;
     width: 25%;
 }
-
-.container .pictures .column img {
+.photos-contain .pictures .column img {
     width: 100%;
 }
+
 
 /* testimonials section */
 
