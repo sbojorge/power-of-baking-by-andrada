@@ -14,6 +14,10 @@ body {
     color: #564146;
 }
 
+h2 {
+    font-family: Amatic SC, sans-serif;
+}
+
 /* logo and navigation links */
 
 #logo {
@@ -58,17 +62,11 @@ body {
     display: flex;
     height: 600px;
     max-width: 100%;
-    background: url('../images/pavlova-net.webp');
+    background-image: url('../images/pavlova-net.webp');
     background-size: cover;
 }
 
 /* About me */
-
-#welcome {
-    text-align: center;
-    margin: 10px 0 10px 0;
-    padding: 10px  0 10px 0; 
-}
 
 .abt-me {
     display: flex;
@@ -83,10 +81,11 @@ body {
     margin: 10px 0 10px 0;    
 }
 
-.abt-me > p {
+.abt-me {
     text-align: center;
-    line-height: 2.5;
+    line-height: 1.5;
 }
+
 
 /* Gallery */
  
