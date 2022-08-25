@@ -166,31 +166,43 @@ h2 {
 
 .bottom {
     display: flex;
-    padding-top: 15px;
-    justify-content: center;
+    justify-content: space-evenly;    
+    padding: 15px 20px 15px 20px;    
     align-items: center;
     background-color:#5defc1;
-    height: 100px;
+    height: 150px;
+    
 }
 
 .social-links {
     list-style: none;
 }
 
-.bottom li {
-    display:inline;
-}
-
 .bottom i {
-    font-size: 30px;
     align-items: center;
-    color: #564146;   
+    font-size: 30px;   
+    color: #564146;
 }
 
-.contact-2 {
-    display: flex;
-    justify-content: flex-end;
+.container-1 li {
+    display: inline-block;
+    line-height: 4;
 }
+
+.container-1 i {
+    padding: 0 3.3px;
+}
+
+
+.container-2 {
+    text-align: center;
+}
+
+.container-2 i {
+    font-size: 20px;
+}
+
+
 
 /* Shop page */
 
