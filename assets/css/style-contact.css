@@ -3,7 +3,7 @@
 * {
     margin: 0;
     padding: 0;
-    border: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -243,10 +243,65 @@ aside {
 
 .cont-me {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    margin-left: 30px;
+    
     padding: 20px 0 20px 0;
+   
     
 }
+
+.cont-me form {
+    justify-content: center;
+    border:5px solid #ef5d8b;
+    border-radius: 10px;
+    max-width: 500px;
+    padding: 20px;
+}
+
+.cont-me1 legend {
+    font-size: 20px;
+    font-weight: bold;
+} 
+
+input[type=text] {
+    width: 100%;
+    background-color:rgba(236, 238, 236, 0.3);
+    border-color: rgba(236, 238, 236, 0.3) ;
+    border-radius: 5px;
+    color:white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 8px;
+    padding: 10px;
+}
+
+select {
+    width: 85px;
+    background-color:rgba(236, 238, 236, 0.3);
+    border-color: rgba(236, 238, 236, 0.3);
+    border-radius: 5px;
+    color:whitesmoke;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 8px;
+    padding: 10px;
+}
+
+input[type=tel] {
+    width: 76%;
+    background-color:rgba(236, 238, 236, 0.3);
+    border-color: rgba(236, 238, 236, 0.3) ;
+    border-radius: 5px;
+    color:white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 8px;
+    padding: 10px;
+   
+}
+
+
 
 /* Media queries */
 @media screen and (max-width:1240px) {
