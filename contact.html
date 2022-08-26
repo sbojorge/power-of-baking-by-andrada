@@ -10,7 +10,7 @@
         content="presentation and commercial offering of Andrada Hincianu's baked products in Arlon, Belgium and Luxembourg area">
     <meta name="keywords" content="baking, cupcake, pie, cake, eclairs, donuts, macaron, macaroon, arlon, luxembourg">
 
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style-contact.css">
     <title>Power Of Baking By Andrada</title>
 
 <body>
@@ -44,41 +44,47 @@
         </nav>
     </header>
     <!--Contact form-->
-    <section id="form-backgr">
+    <section>
         <h2>Let's talk about your next <em>cake</em> experience</h2>
-        <p>Please consider filling the form in up to 4 days before you order.</p><br>
+        <p><em>(please consider sending the form up to 4 days before you order)</em></p><br>
         <form action="thank-you.html" method="get">
-            <label for="fname">Name:</label>
-            <input type="text" id="fname" name="first-name" required>
-            <label for="lname">Last name:</label>
-            <input type="text" id="lname" name="last-name" required>
-            <label for="email">Email address:</label>
-            <input type="text" id="email" name="email" required>
-            <label for="country">Prefix</label>
-            <input list="phone-pref" type="text" id="country" name="country-pref" required>
-            <datalist id="phone-pref">
-                <option value="BE"></option>
-                <option value="LU"></option>
-                <option value="FR"></option>
-            </datalist>
-            <label for="pnumber">Phone number:</label>
-            <input type="text" id="pnumber" name="phone-number" required>
-            <label for="contact">Preferred way of contact:</label>
-            <label for="email-1">Email</label>
-            <input type="radio" id="email-1" name="contact" value="email">
-            <label for="phone-1">Phone</label>
-            <input type="radio" id="phone-1" name="contact" value="phone">
-            <label for="any-contact">Any</label>
-            <input type="radio" id="any-contact" name="contact" value="any">
-
-            <label for="k-order">Tell me a little bit more:</label><br>
-            <textarea name="description" id="k-order" cols="40"
-                rows="10" placeholder="What kind of cake you would like to order?for which occasion?"></textarea>
+            <fieldset>
+                <legend>Your details</legend>
+                <label for="fname">Name:</label>
+                <input type="text" id="fname" name="first-name" required>
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="last-name" required>
+                <label for="email">Email address:</label>
+                <input type="text" id="email" name="email" required>
+                <label for="country">Prefix</label>
+                <input list="phone-pref" type="text" id="country" name="country-pref" required>
+                <datalist id="phone-pref">
+                    <option value="BE"></option>
+                    <option value="LU"></option>
+                    <option value="FR"></option>
+                </datalist>
+                <label for="pnumber">Phone number:</label>
+                <input type="text" id="pnumber" name="phone-number" required>
+            </fieldset>
+            <fieldset>
+                <legend>Preferred way of contact</legend>
+                <label for="email-1">Email</label>
+                <input type="radio" id="email-1" name="contact" value="email">
+                <label for="phone-1">Phone</label>
+                <input type="radio" id="phone-1" name="contact" value="phone">
+                <label for="any-contact">Any</label>
+                <input type="radio" id="any-contact" name="contact" value="any">
+            </fieldset>
+            <fieldset>
+                <legend>Tell me a little bit more</legend>
+                <textarea name="description" id="k-order" cols="40" rows="10"
+                    placeholder="What kind of cake you would like to order?for which occasion?"></textarea>
+            </fieldset>
             <input type="submit" value="Contact me" name="contact-me">
 
         </form>
     </section>
-     <!--Andrada's social media links-->
+    <!--Andrada's social media links-->
     <footer>
         <div class="bottom">
             <div class="container-1">
@@ -86,44 +92,44 @@
                 <ul class="social-links">
                     <li>
                         <a href="https://instagram.com//andradahincianu/" target="_blank" rel="noopener"
-                        aria-label="Visit me on instagram (opens in a new tab)"><i
-                            class="fa-brands fa-instagram"></i></a>
+                            aria-label="Visit me on instagram (opens in a new tab)"><i
+                                class="fa-brands fa-instagram"></i></a>
                     </li>
                     <li>
                         <a href="https://facebook.com//mocian.andra" target="_blank" rel="noopener"
-                        aria-label="Visit me on facebook (opens in a new tab)"><i
-                            class="fa-brands fa-square-facebook"></i></a>
+                            aria-label="Visit me on facebook (opens in a new tab)"><i
+                                class="fa-brands fa-square-facebook"></i></a>
                     </li>
                     <li>
                         <a href="https://pinterest.com" target="_blank" rel="noopener"
-                        aria-label="Visit me on pinterest (opens in a new tab)"><i
-                            class="fa-brands fa-pinterest"></i></a>
+                            aria-label="Visit me on pinterest (opens in a new tab)"><i
+                                class="fa-brands fa-pinterest"></i></a>
                     </li>
                 </ul>
             </div>
-                <!--headquarter contact information-->
+            <!--headquarter contact information-->
             <div class="container-2">
                 <h3>Power of Baking by Andrada<h3>
-                <ul class="social-links">
-                    <li>
-                        <i class="fa-solid fa-at"></i>
-                        <a href="mailto:powerofbakingbyandrada@gmail.com">powerofbakingbyandrada@gmail.com</a>
-                    </li>
-                </ul>
-                    
-                <span>
-                    <i class="fa-solid fa-location-dot"></i>
-                    6, Rue de Tanneries, 6700-Arlon (Belgium)
-                </span>
+                        <ul class="social-links">
+                            <li>
+                                <i class="fa-solid fa-at"></i>
+                                <a href="mailto:powerofbakingbyandrada@gmail.com">powerofbakingbyandrada@gmail.com</a>
+                            </li>
+                        </ul>
+
+                        <span>
+                            <i class="fa-solid fa-location-dot"></i>
+                            6, Rue de Tanneries, 6700-Arlon (Belgium)
+                        </span>
             </div>
-             <!--back to top button-->
+            <!--back to top button-->
             <div class="container-3">
                 <ul class="social-links">
                     <li>
                         <a href="contact.html" aria-label="Back to top icon"><i class="fa-solid fa-circle-up"></i></a>
                     </li>
-                </ul> 
-            </div>              
+                </ul>
+            </div>
     </footer>
 
     <!--Fontawesome icons script-->

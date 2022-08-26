@@ -10,8 +10,8 @@ body {
     font-family: Josefin Sans, sans-serif;
     font-weight: 400;
     font-size: 17px;
-    background-color: #eeecec;
-    color: #564146;
+   background-image: url('../images/order-box.webp');
+    color: whitesmoke;
 }
 
 h2 {
@@ -56,16 +56,6 @@ h2 {
 
 .current {
     border-bottom: 1px solid #465651;
-}
-    
-/* header image */
-
-#header-image {
-    display: flex;
-    height: 600px;
-    max-width: 100%;
-    background-image: url('../images/pavlova-net.webp');
-    background-size: cover;
 }
 
 /* About me */
@@ -250,10 +240,9 @@ aside {
 }
 
 /* Contact form */
-body #contact-form {
-    background-image: url('../images/order-box.webp');
-  
-   
+
+fieldset {
+    border-color: aqua;
 }
 
 /* Media queries */
