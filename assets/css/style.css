@@ -249,6 +249,18 @@ aside {
    height: 300px;
 }
 
+/* Thank you page */
+.th-message {
+    background-image: 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+
+
+
+
 /* Media queries */
 @media screen and (max-width:1240px) {
     .links .list-items {
