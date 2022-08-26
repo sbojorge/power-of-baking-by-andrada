@@ -64,15 +64,15 @@
                         <option value="France">+33</option>
                     </select>
                     <label for="pnumber"></label>
-                    <input type="tel" id="pnumber" name="phone-number" required><br><br>
+                    <input type="tel" id="pnumber" name="phone-number" required pattern="[0-9] {10}" placeholder="Only numbers"><br><br>
                 
                 
                     <legend>Preferred way of contact</legend><br>
-                    <label for="email-1">Email</label>
+                    <label for="email-1" class="radio1">Email</label>
                     <input type="radio" id="email-1" name="contact" value="email">
-                    <label for="phone-1">Phone</label>
+                    <label for="phone-1" class="radio1">Phone</label>
                     <input type="radio" id="phone-1" name="contact" value="phone">
-                    <label for="any-contact">Any</label>
+                    <label for="any-contact" class="radio1">Any</label>
                     <input type="radio" id="any-contact" name="contact" value="any"><br><br>
                 
                 

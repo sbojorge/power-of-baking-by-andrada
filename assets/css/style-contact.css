@@ -10,7 +10,8 @@ body {
     font-family: Josefin Sans, sans-serif;
     font-weight: 400;
     font-size: 17px;
-   background-image: url('../images/order-box.webp');
+    background-image: url('../images/order-box.webp');
+    background-size: cover;
     color: whitesmoke;
 }
 
@@ -58,98 +59,6 @@ h2 {
     border-bottom: 1px solid #465651;
 }
 
-/* About me */
-
-.head-contain {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px 0 20px 0;
-    padding-left: 20px 0 20px 0;
-   
-}
-
-.abt-me {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;    
-}
-
-.abt-me > img {
-    height: 350px;
-    width: 350px;
-    border-radius: 50%;
-    margin: 10px;
-    padding: 10px;   
-}
-
-.abt-me > p {
-    text-align: left;
-    line-height: 1.8;
-    margin: 10px;
-    padding: 10px; 
-}
-
-/* Gallery */
- 
-.photos-contain {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.photos-contain .pictures {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.photos-contain .pictures .column {
-    display: flex;
-    flex-direction: column;
-    width: 20%;
-}
-
-.photos-contain .pictures .column img {
-    width: 100%;
-}
-
-
-
-/* testimonials section */
-
-.reviews {
-    display: flex;    
-    justify-content: space-around;
-    align-items: center;  
-    text-align: center;
-    margin: 20px;
-    padding: 10px;
-}
-
-.reviews #tudor {
-    width: 200px;
-    height: 200px;
-    padding: 1% 1% 0 1%;
-    background-color:rgba(249, 239, 164, 1.0);
-    border-radius: 10px;					 
-} 
-
-.reviews #severine {
-    width: 275px;
-    height: 275px;
-    padding: 1% 1% 2.5% 1%;
-    background-color: rgba(255, 197, 166, 1.0);
-    border-radius: 10px;
-}
-
-.reviews #anca {
-    width: 200px;
-    height: 200px;
-    padding: 1% 1% 0 1%;
-    background-color:rgba(249, 149, 113, 1.0);
-    border-radius: 10px;
-}
 
 /* Footer section */
 
@@ -189,66 +98,14 @@ h2 {
     font-size: 20px;
 }
 
-/* Shop page */
-
-.shop h2 {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px 0 20px 0;
-    padding-left: 20px 0 20px 0;
-}
-
-.container-text1 {
-    display: flex;
-    justify-content: space-evenly;
-      
-    margin-bottom: 20px;
-    padding: 20px 30px 0 30px;
-    gap: 30px;
-}
-
-.layer-cakes {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;    
-}
-
-.container-text2 {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
-    padding: 20px 30px 0 30px;
-}
-
-.cheesecake-desc {
-    align-self: flex-start;
-}
-
-.container-pics2 {
-    border-radius: 20px;
-}
-
-aside {
-   background-color: #ef5d8b;
-   color: white;
-   font-style: italic;
-   margin: 10px;
-   padding: 5px;
-   width: 300px;
-   height: 300px;
-}
-
 /* Contact form */
 
 .cont-me {
     display: flex;
     justify-content: flex-start;
     margin-left: 30px;
-    
     padding: 20px 0 20px 0;
-   
-    
+  
 }
 
 .cont-me form {
@@ -269,7 +126,7 @@ input[type=text] {
     background-color:rgba(236, 238, 236, 0.3);
     border-color: rgba(236, 238, 236, 0.3) ;
     border-radius: 5px;
-    color:white;
+    color:whitesmoke;
     font-size: 18px;
     font-weight: bold;
     margin-top: 8px;
@@ -293,13 +150,42 @@ input[type=tel] {
     background-color:rgba(236, 238, 236, 0.3);
     border-color: rgba(236, 238, 236, 0.3) ;
     border-radius: 5px;
-    color:white;
+    color:whitesmoke;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 8px;
+    padding: 10px;   
+}
+
+::placeholder {
+    color: whitesmoke;
+}
+
+textarea {
+    background-color:rgba(236, 238, 236, 0.3);
+    border-color: rgba(236, 238, 236, 0.3);
+    border-radius: 5px;
+    color:whitesmoke;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 8px;
+    padding: 10px;   
+}
+
+input[type=submit] {
+    background-color: #ef5d8b;
+    border-color: rgba(239, 93, 139, 0);
+    border-radius: 5px;
+    color:whitesmoke;
     font-size: 18px;
     font-weight: bold;
     margin-top: 8px;
     padding: 10px;
-   
 }
+
+
+
+
 
 
 
