@@ -241,6 +241,16 @@ h2 {
     border-radius: 20px;
 }
 
+aside {
+   background-color: #ef5d8b;
+   color: white;
+   font-style: italic;
+   margin: 10px;
+   padding: 5px;
+   width: 300px;
+   height: 300px;
+}
+
 
 
 
