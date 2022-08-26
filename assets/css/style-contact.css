@@ -241,8 +241,11 @@ aside {
 
 /* Contact form */
 
-fieldset {
-    border-color: aqua;
+.cont-me {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0 20px 0;
+    
 }
 
 /* Media queries */

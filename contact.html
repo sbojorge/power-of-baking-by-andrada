@@ -47,42 +47,44 @@
     <section>
         <h2>Let's talk about your next <em>cake</em> experience</h2>
         <p><em>(please consider sending the form up to 4 days before you order)</em></p><br>
-        <form action="thank-you.html" method="get">
-            <fieldset>
-                <legend>Your details</legend>
-                <label for="fname">Name:</label>
-                <input type="text" id="fname" name="first-name" required>
-                <label for="lname">Last name:</label>
-                <input type="text" id="lname" name="last-name" required>
-                <label for="email">Email address:</label>
-                <input type="text" id="email" name="email" required>
-                <label for="country">Prefix</label>
-                <input list="phone-pref" type="text" id="country" name="country-pref" required>
-                <datalist id="phone-pref">
-                    <option value="BE"></option>
-                    <option value="LU"></option>
-                    <option value="FR"></option>
-                </datalist>
-                <label for="pnumber">Phone number:</label>
-                <input type="text" id="pnumber" name="phone-number" required>
-            </fieldset>
-            <fieldset>
-                <legend>Preferred way of contact</legend>
-                <label for="email-1">Email</label>
-                <input type="radio" id="email-1" name="contact" value="email">
-                <label for="phone-1">Phone</label>
-                <input type="radio" id="phone-1" name="contact" value="phone">
-                <label for="any-contact">Any</label>
-                <input type="radio" id="any-contact" name="contact" value="any">
-            </fieldset>
-            <fieldset>
-                <legend>Tell me a little bit more</legend>
-                <textarea name="description" id="k-order" cols="40" rows="10"
-                    placeholder="What kind of cake you would like to order?for which occasion?"></textarea>
-            </fieldset>
-            <input type="submit" value="Contact me" name="contact-me">
+        <div class="cont-me">
+            <form action="thank-you.html" method="get">
+                <fieldset>
+                    <legend>Your details</legend><br>
+                    <label for="fname">Name:</label>
+                    <input type="text" id="fname" name="first-name" required><br><br>
+                    <label for="lname">Last name:</label>
+                    <input type="text" id="lname" name="last-name" required><br><br>
+                    <label for="email">Email address:</label>
+                    <input type="text" id="email" name="email" required><br><br>
+                    <label for="country">Prefix</label>
+                    <input list="phone-pref" type="text" id="country" name="country-pref" required>
+                    <datalist id="phone-pref">
+                        <option value="BE"></option>
+                        <option value="LU"></option>
+                        <option value="FR"></option>
+                    </datalist>
+                    <label for="pnumber">Phone number:</label>
+                    <input type="text" id="pnumber" name="phone-number" required><br><br>
+                </fieldset>
+                <fieldset>
+                    <legend>Preferred way of contact</legend><br>
+                    <label for="email-1">Email</label>
+                    <input type="radio" id="email-1" name="contact" value="email">
+                    <label for="phone-1">Phone</label>
+                    <input type="radio" id="phone-1" name="contact" value="phone">
+                    <label for="any-contact">Any</label>
+                    <input type="radio" id="any-contact" name="contact" value="any"><br><br>
+                </fieldset>
+                <fieldset>
+                    <legend>Tell me a little bit more</legend><br>
+                    <textarea name="description" id="k-order" cols="40" rows="10"
+                        placeholder="What kind of cake you would like to order?for which occasion?"></textarea><br><br>
+                </fieldset>
+                <input type="submit" value="Contact me" name="contact-me">
+            </form>
+        </div>
 
-        </form>
     </section>
     <!--Andrada's social media links-->
     <footer>
