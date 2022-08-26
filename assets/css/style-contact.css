@@ -10,15 +10,15 @@ body {
     font-family: Josefin Sans, sans-serif;
     font-weight: 400;
     font-size: 17px;
-    background-image: url('../images/order-box.webp');
+    background-color: #eeecec;
     background-size: cover;
     color: whitesmoke;
 }
 
 h2 {
     font-family: Amatic SC, sans-serif;
-    font-size:350%;    
-    text-decoration: underline #564146;
+    font-size:250%;    
+    text-align: center;
 }
 
 /* logo and navigation links */
@@ -68,6 +68,7 @@ h2 {
     padding: 15px 20px 15px 20px;    
     align-items: center;
     background-color:#5defc1;
+    color: #564146;
     height: 150px;    
 }
 
@@ -100,6 +101,18 @@ h2 {
 
 /* Contact form */
 
+main {
+    background-image: url('../images/order-box.webp');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.cont-me1 p {
+    
+    text-align: center;
+
+}
+
 .cont-me {
     display: flex;
     justify-content: flex-start;
@@ -112,7 +125,7 @@ h2 {
     justify-content: center;
     border:5px solid #ef5d8b;
     border-radius: 10px;
-    max-width: 500px;
+    max-width: 850px;
     padding: 20px;
 }
 
@@ -143,6 +156,10 @@ select {
     font-weight: bold;
     margin-top: 8px;
     padding: 10px;
+}
+
+select:hover {
+    color:black;
 }
 
 input[type=tel] {
@@ -183,26 +200,9 @@ input[type=submit] {
     padding: 10px;
 }
 
-
-
-
-
-
+input[type=submit]:hover {
+    background-color:whitesmoke;
+    color: #ef5d8b;
+}
 
 /* Media queries */
-@media screen and (max-width:1240px) {
-    .links .list-items {
-        display: list-item;
-    }
-    #logo {
-        font-size: 150%; 
-    }
-
-     
-}
-
-@media  screen and (max-width: 950px)  {
-    .abt-me, .container-1, .container-2, .container-3 {
-        flex-direction: column;
-    }
-}

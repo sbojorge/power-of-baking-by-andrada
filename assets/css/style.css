@@ -249,13 +249,6 @@ aside {
    height: 300px;
 }
 
-/* Contact form */
-body #contact-form {
-    background-image: url('../images/order-box.webp');
-  
-   
-}
-
 /* Media queries */
 @media screen and (max-width:1240px) {
     .links .list-items {
