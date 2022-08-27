@@ -100,10 +100,33 @@ h2 {
 
 /* Gallery */
  
-.pictures {
+.photo-contain {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: 20px;
+    padding: 10px;    
+}
+
+.photo-contain .pictures {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    gap:5px;
     
 }
+
+.photo-contain .pictures .column {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    gap:5px;
+}
+
+  
+
 
 
 
