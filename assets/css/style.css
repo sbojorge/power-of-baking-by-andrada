@@ -100,28 +100,11 @@ h2 {
 
 /* Gallery */
  
-.photos-contain {
+.pictures {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    
 }
 
-.photos-contain .pictures {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.photos-contain .pictures .column {
-    display: flex;
-    flex-direction: column;
-    width: 20%;
-}
-
-.photos-contain .pictures .column img {
-    width: 100%;
-}
 
 
 
@@ -250,13 +233,7 @@ aside {
    height: 300px;
 }
 
-/* Thank you page */
-.th-message {
-    background-image: 
-    background-size: cover; 
-    background-repeat: no-repeat;
-    height: 100vh;
-}
+
 
 
 
