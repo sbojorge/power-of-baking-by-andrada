@@ -65,6 +65,7 @@ h2 {
     height: 600px;
     max-width: 100%;
     background-image: url('../images/pavlova-net.webp');
+    background-color: #eeecec;
     background-size: cover;
 }
 
@@ -167,8 +168,6 @@ h2 {
 .bottom {
     display: flex;
     justify-content: space-evenly;
-    margin: 10px;    
-    padding: 15px 20px 15px 20px;    
     align-items: center;
     background-color:#5defc1;
     height: 150px;    
@@ -330,7 +329,37 @@ aside {
     text-align: center;
 }
 
+/*THANK YOU  */
 
+main {
+    background-image: url('../images/picture-14.webp');
+    background-color: #eeecec;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.contain-thanks {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.th-message {
+    background-color: rgba(245, 245, 245, 0.1);
+    color: #EE3E95;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 4px;
+    line-height: 2;
+    width: 500px;
+    height: 500px;
+    margin: 50px;
+    padding: 70px;      
+      
+}
+
+.th-message h2 {
+    text-decoration: underline #EE3E95;
+}
 
 
 

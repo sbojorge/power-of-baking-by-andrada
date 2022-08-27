@@ -10,10 +10,10 @@ body {
     font-family: Josefin Sans, sans-serif;
     font-weight: 400;
     font-size: 17px;
-    
+   
     background-color: #eeecec;
     background-size: cover;
-    color: #564146;
+    
     
 }
 
@@ -62,40 +62,34 @@ h2 {
 }
 
 /*THANK YOU  */
+
+main {
+    background-image: url('../images/picture-14.webp');
+    background-color: #eeecec;
+    background-size: cover;
+    background-attachment: fixed;
+}
 .contain-thanks {
     display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
 }
 
 .th-message {
-    background-color: rgba(239, 93, 139,1.0);
-     
+    
+    background-color: rgba(245, 245, 245, 0.1);
+    color: #c90076;
     font-size: 20px;
     text-align: center;
     line-height: 2;
     width: 500px;
     height: 500px;
     margin: 50px;
-    padding: 50px;
-       
+    padding: 70px;      
       
 }
 
-.th-image {
-    background-image: url('../images/layer-cake4.webp');
-    background-color: #eeecec;
-    background-blend-mode: luminosity;
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 500px;
-    height: 500px;
-    margin: 50px;
-    padding: 50px;
-    z-index: 500; 
-}
-  
+
     
 
 
