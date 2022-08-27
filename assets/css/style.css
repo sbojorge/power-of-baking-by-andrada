@@ -73,8 +73,8 @@ h2 {
 .head-contain {
     display: flex;
     justify-content: center;
-    margin-top: 20px 0 20px 0;
-    padding-left: 20px 0 20px 0;
+    margin: 20px 0 20px 0;
+    padding: 20px 0 20px 0;
 }
 
 .abt-me {
@@ -135,7 +135,7 @@ h2 {
     margin: 20px;
     padding: 10px;
     color:#130917;
-    line-height: 1.1s;
+    line-height: 1.1;
 }
 
 .reviews #tudor {
@@ -206,8 +206,8 @@ h2 {
 .shop h2 {
     display: flex;
     justify-content: center;
-    margin-top: 20px 0 20px 0;
-    padding-left: 20px 0 20px 0;
+    margin: 20px 0 20px 0;
+    padding: 20px 0 20px 0;
 }
 
 .container-text1 {
