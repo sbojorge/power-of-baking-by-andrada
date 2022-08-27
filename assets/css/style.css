@@ -305,6 +305,30 @@ aside {
     text-align: justify;
 }
 
+.container-pic3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-pic3 .cupcakes {
+    display: flex;
+    justify-content: center;
+    margin:20px 0;
+    padding: 10px;
+    gap: 8px;
+}
+
+.container-pic3 .cupcakes img {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10%;
+}
+
+.cupcakes figcaption {
+    text-align: center;
+}
 
 
 
