@@ -65,7 +65,7 @@ h2 {
     min-height: 600px;
     width: 600px;
     width: 100%;
-    background-image: url('../images/pavlova-net.webp');
+    background: url('../images/pavlova-net.webp');
     background-color: #eeecec;
     background-size: cover;
 }
@@ -164,6 +164,134 @@ h2 {
     border-radius: 10px;
 }
 
+/* Shop page */
+/*layer cakes */
+.shop h2 {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 20px 0;
+    padding: 20px 0 20px 0;
+}
+
+.shop h3 {
+    text-align: center;
+    margin: 20px 0;
+    padding: 10px 0;
+}
+
+.container-text1 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    padding: 20px 30px 0 30px;
+    gap: 30px;
+}
+
+.container-pic1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-pic1 .layer-cakes {
+    display: flex;
+    justify-content: center;
+    margin:20px 0;
+    padding: 10px;
+    gap: 10px;  
+}
+
+.container-pic1 .layer-cakes img {
+    width: 40Opx;
+    height: 400px;
+    border-radius: 10%;
+}
+
+.layer-cakes figcaption {
+    text-align: center;
+}
+
+aside {
+    background-color: #ef5d8b;
+    color: #130917;
+    font-style: italic;
+    margin: 0 100px;
+    padding :40px 0 0 20px;
+    height: 200px;
+ }
+ 
+
+/* cheesecakes */
+
+.container-text2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 20px 30px 0 30px;
+}
+
+.container-pic2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-pic2 .cheesecake-pic {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0;
+    gap: 20px;     
+}
+
+.container-pic2 .cheesecake-pic img {
+    width: 400px;
+    height: 400px;
+    border-radius: 10%;
+}
+
+.cheesecake-pic figcaption {
+    text-align: center;
+}
+
+/* Cupcakes */
+
+.container-text3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 20px 30px 0 30px;
+    text-align: justify;
+}
+
+.container-pic3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-pic3 .cupcakes {
+    display: flex;
+    justify-content: center;
+    margin:20px 0;
+    padding: 10px;
+    gap: 8px;
+}
+
+.container-pic3 .cupcakes img {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10%;
+}
+
+.cupcakes figcaption {
+    text-align: center;
+}
+
 /* Contact form */
 
 .contact-main {
@@ -174,15 +302,13 @@ h2 {
 
 .cont-me1 p {
     text-align: center;
-
 }
 
 .cont-me {
     display: flex;
     justify-content: flex-start;
     margin-left: 30px;
-    padding: 20px 0 20px 0;
-  
+    padding: 20px 0 20px 0;  
 }
 
 .cont-me form {
@@ -190,9 +316,12 @@ h2 {
     border:5px solid #ef5d8b;
     border-radius: 10px;
     color:whitesmoke;
-    text-decoration: whitesmoke;
     max-width: 850px;
     padding: 20px;
+}
+
+.cont-me form h2 {
+    text-decoration: underline whitesmoke;
 }
 
 .cont-me1 legend {
@@ -311,134 +440,7 @@ input[type=submit]:hover {
     font-size: 20px;
 }
 
-/* Shop page */
-/*layer cakes */
-.shop h2 {
-    display: flex;
-    justify-content: center;
-    margin: 20px 0 20px 0;
-    padding: 20px 0 20px 0;
-}
 
-.shop h4 {
-    text-align: center;
-    text-transform: uppercase;
-    margin: 20px 0;
-    padding: 10px 0;
-}
-
-.container-text1 {
-    display: flex;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
-    padding: 20px 30px 0 30px;
-    gap: 30px;
-}
-
-.container-pic1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.container-pic1 .layer-cakes {
-    display: flex;
-    justify-content: center;
-    margin:20px 0;
-    padding: 10px;
-    gap: 10px;  
-}
-
-.container-pic1 .layer-cakes img {
-    width: 40Opx;
-    height: 400px;
-    border-radius: 10%;
-}
-
-.layer-cakes figcaption {
-    text-align: center;
-}
-
-aside {
-    background-color: #ef5d8b;
-    color: #130917;
-    font-style: italic;
-    margin: 0 100px;
-    padding :40px 0 0 20px;
-    height: 200px;
- }
- 
-
-/* cheesecakes */
-
-.container-text2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 20px;
-    padding: 20px 30px 0 30px;
-}
-
-.container-pic2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.container-pic2 .cheesecake-pic {
-    display: flex;
-    justify-content: space-evenly;
-    padding: 20px 0;
-    gap: 20px;     
-}
-
-.container-pic2 .cheesecake-pic img {
-    width: 400px;
-    height: 400px;
-    border-radius: 10%;
-}
-
-.cheesecake-pic figcaption {
-    text-align: center;
-}
-
-/* Cupcakes */
-
-.container-text3 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 20px;
-    padding: 20px 30px 0 30px;
-    text-align: justify;
-}
-
-.container-pic3 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.container-pic3 .cupcakes {
-    display: flex;
-    justify-content: center;
-    margin:20px 0;
-    padding: 10px;
-    gap: 8px;
-}
-
-.container-pic3 .cupcakes img {
-    width: 350px;
-    height: 350px;
-    object-fit: cover;
-    border-radius: 10%;
-}
-
-.cupcakes figcaption {
-    text-align: center;
-}
 
 /*THANK YOU  */
 
@@ -464,19 +466,13 @@ main {
     width: 500px;
     height: 500px;
     margin: 50px;
-    padding: 70px;      
-      
+    padding: 70px;   
+    
 }
 
 .th-message h2 {
     text-decoration: underline #EE3E95;
 }
-
-
-
-
-
-
 
 /* Media queries */
 
@@ -491,7 +487,9 @@ main {
     .reviews {
         flex-direction: column;
         gap: 10px;
-    }    
+    }
+    
+    
 }
 
      
@@ -502,13 +500,21 @@ main {
     }
     .bottom {
         flex-direction: column;
-}
+    }
 
-}
-
-@media  screen and (max-width: 1070px) {
     #header-image {
         flex-shrink: 1;
+    }   
+
+    
+    }
+
+
+
+@media  screen and (max-width: 600px) {
+    .photo-contain .pictures {
+       flex-direction: column;
+       margin: 0 auto;
     }
 }
 
