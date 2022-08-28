@@ -9,7 +9,7 @@
 body {
     font-family: Josefin Sans, sans-serif;
     font-weight: 400;
-    font-size: 17px;
+    font-size: 18px;
     background-color: #eeecec;
     color: #564146;
 }
@@ -62,8 +62,9 @@ h2 {
 
 #header-image {
     display: flex;
-    height: 600px;
-    max-width: 100%;
+    min-height: 600px;
+    width: 600px;
+    width: 100%;
     background-image: url('../images/pavlova-net.webp');
     background-color: #eeecec;
     background-size: cover;
@@ -148,9 +149,9 @@ h2 {
 } 
 
 .reviews #severine {
-    width: 250px;
-    height: 250px;
-    padding: 3% 1% 2.5% 1%;
+    max-width: 275px;
+    max-height: 275px;
+    padding: 1em;
     background-color: rgba(239, 93, 139, 1.0);
     border-radius: 10px;
 }
@@ -163,6 +164,115 @@ h2 {
     border-radius: 10px;
 }
 
+/* Contact form */
+
+.contact-main {
+    background-image: url('../images/order-box.webp');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.cont-me1 p {
+    text-align: center;
+
+}
+
+.cont-me {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 30px;
+    padding: 20px 0 20px 0;
+  
+}
+
+.cont-me form {
+    justify-content: center;
+    border:5px solid #ef5d8b;
+    border-radius: 10px;
+    color:whitesmoke;
+    text-decoration: whitesmoke;
+    max-width: 850px;
+    padding: 20px;
+}
+
+.cont-me1 legend {
+    font-size: 20px;
+    font-weight: bold;
+} 
+
+input[type=text] {
+    width: 100%;
+    background-color:rgba(236, 238, 236, 0.3);
+    border-color: rgba(236, 238, 236, 0.3);
+    box-sizing: border-box;
+    border-radius: 5px;
+    color:whitesmoke;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 8px;
+    padding: 10px;
+}
+
+select {
+    width: 85px;
+    background-color:rgba(236, 238, 236, 0.3);
+    border-color: rgba(236, 238, 236, 0.3);
+    border-radius: 5px;
+    color:whitesmoke;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 8px;
+    padding: 10px;
+}
+
+select:hover {
+    color:black;
+}
+
+input[type=tel] {
+    width: 76%;
+    background-color:rgba(236, 238, 236, 0.3);
+    border-color: rgba(236, 238, 236, 0.3) ;
+    border-radius: 5px;
+    color:whitesmoke;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 8px;
+    padding: 10px;   
+}
+
+::placeholder {
+    color: whitesmoke;
+}
+
+textarea {
+    background-color:rgba(236, 238, 236, 0.3);
+    border-color: rgba(236, 238, 236, 0.3);
+    border-radius: 5px;
+    color:whitesmoke;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 8px;
+    padding: 10px;   
+}
+
+input[type=submit] {
+    background-color: #ef5d8b;
+    border-color: rgba(239, 93, 139, 0);
+    border-radius: 5px;
+    color:whitesmoke;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 8px;
+    padding: 10px;
+}
+
+input[type=submit]:hover {
+    background-color:whitesmoke;
+    color: #ef5d8b;
+}
+
+
 /* Footer section */
 
 .bottom {
@@ -170,7 +280,8 @@ h2 {
     justify-content: space-evenly;
     align-items: center;
     background-color:#5defc1;
-    height: 150px;    
+    min-height: 150px;
+    padding: 20px;
 }
 
 .social-links {
@@ -379,6 +490,7 @@ main {
 
     .reviews {
         flex-direction: column;
+        gap: 10px;
     }    
 }
 
@@ -393,3 +505,10 @@ main {
 }
 
 }
+
+@media  screen and (max-width: 1070px) {
+    #header-image {
+        flex-shrink: 1;
+    }
+}
+
