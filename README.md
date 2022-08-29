@@ -126,4 +126,14 @@ This image comes from StockSnap https://stocksnap.io/:
 
 * cupcake-dessert-3SS4B3TYTW (picture cupcake-1 used on the "Shop" page.
 
+### Acknowledgements
+
+My family for believing in me and supporting me.
+My Mentor, always available and open.
+The CI Slack community, lovely people ready to share knowledge and experiences.
+
+## Technologies
+
+This website was build using HTML and CSS.
+
 
