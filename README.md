@@ -95,9 +95,7 @@ The site was deployed to GitHub pages. These are the followed steps for deployin
 
 ![printscreen of GitHub Main being selected](/assets/images/readme-pic11.webp)
 
-4. Refresh the page manually. The link to the now deployed website was shown as:
-
-![printscreen of GitHub with the link to the deployed website](/assets/images/readme-pic12.webp)
+4. Refresh the page manually. The link to the now deployed website is: https://sbojorge.github.io/power-of-baking-by-andrada/
 
 ## Credits
 
