@@ -65,7 +65,7 @@ h2 {
     min-height: 600px;
     width: 600px;
     width: 100%;
-    background: url('../images/pavlova-net.webp');
+    background: url('../images/pavlova-net.webp') no-repeat center center;
     background-color: #eeecec;
     background-size: cover;
 }
@@ -502,9 +502,7 @@ main {
         flex-direction: column;
     }
 
-    #header-image {
-        flex-shrink: 1;
-    }   
+   
 
     
     }
