@@ -60,7 +60,13 @@ h2 {
     
 /* header image */
 
-#header-image {
+#contain-headerimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+#contain-headerimg #header-image {
     display: flex;
     min-height: 600px;
     width: 600px;
@@ -477,24 +483,22 @@ main {
 }
 
 /* Media queries */
-
-@media screen and (max-width:1240px) {
+/* Large to medium screens until 1200px */
+@media screen and (max-width:1200px) {
     .links .list-items {
         display: list-item;
     }
     #logo {
         font-size: 150%; 
     }
-
     .reviews {
         flex-direction: column;
         gap: 10px;
-    }    
-    
+    }
+  
 }
-
      
-
+/* Medium screens until 950px*/
 @media  screen and (max-width: 950px)  {
     .shop aside {
        flex-direction: column;
@@ -512,8 +516,7 @@ main {
     
 }
 
-
-
+/* Small screens until 600px */
 @media  screen and (max-width: 600px) {
     .photo-contain .pictures {
        flex-direction: column;

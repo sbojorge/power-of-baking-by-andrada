@@ -106,7 +106,7 @@ She remained available for pictures and explanations about the products so they 
 
 Some of the codes were inspired from the following sources:
 
-* The hero image: from the Love running repository;
+* The landing image: from an article available on https://css-tricks.com/perfect-full-page-background-image/;
 
 * The gallery: from the YouTube tutorial by Tech2 etc available on [Create Responsive Image Gallery Using HTML and CSS](https://www.youtube.com/watch?v=Trw_9lisYVY&t=730s)
 
