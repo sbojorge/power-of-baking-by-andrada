@@ -211,13 +211,15 @@ h2 {
     text-align: center;
 }
 
-aside {
+.shop aside {
+    display: flex;
+    flex-direction: column;
     background-color: #ef5d8b;
     color: #130917;
     font-style: italic;
     margin: 0 100px;
     padding :40px 0 0 20px;
-    height: 200px;
+    min-height: 200px;
  }
  
 
@@ -487,25 +489,28 @@ main {
     .reviews {
         flex-direction: column;
         gap: 10px;
-    }
-    
+    }    
     
 }
 
      
 
 @media  screen and (max-width: 950px)  {
-    .abt-me, .container-1, .container-2, .container-3 {
-        flex-direction: column;
-    }
-    .bottom {
-        flex-direction: column;
-    }
-
-   
-
+    .shop aside {
+       flex-direction: column;
+       padding-right: 10px;
+    }  
     
+    .abt-me, .container-1, .container-2, .container-3, .bottom, .container-text1, .container-pic1 .layer-cakes,
+     .container-pic2 .cheesecake-pic, .container-pic3 .cupcakes  {
+        flex-direction: column;
     }
+     
+    .contain-thanks {
+        justify-content: center;
+    }   
+    
+}
 
 
 
@@ -514,5 +519,10 @@ main {
        flex-direction: column;
        margin: 0 auto;
     }
+    
+    .cont-me {
+        justify-content: center;
+    }
+
 }
 
