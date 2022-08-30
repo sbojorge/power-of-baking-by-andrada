@@ -114,6 +114,8 @@ Some of the codes were inspired from the following sources:
 
 * The icons come from Font Awesome: https://fontawesome.com/icons
 
+* The icon for the title tab comes from: https://favicon.io/favicon-generator/
+
 ### Media
 
 The majority of the pictures used on the website were provided by the baker, Andrada Hincianu.
