@@ -478,7 +478,6 @@ main {
     height: 500px;
     margin: 50px;
     padding: 70px;   
-    
 }
 
 .th-message h2 {
@@ -500,7 +499,7 @@ main {
 }
      
 /* Medium screens until 950px*/
-@media  screen and (max-width: 950px)  {
+@media  screen and (max-width: 950px) {
     .shop aside {
        flex-direction: column;
        padding-right: 10px;
@@ -513,12 +512,18 @@ main {
      
     .contain-thanks {
         justify-content: center;
-    }   
+    }
+    
+    .cont-me form {
+        justify-content: center;
+        padding-right: 20px;
+        margin-right: 10px;
+    }
     
 }
 
 /* Small screens until 600px */
-@media  screen and (max-width: 600px) {
+@media  screen and (max-width: 590px) {
     .photo-contain .pictures {
        flex-direction: column;
        margin: 0 auto;
@@ -552,3 +557,13 @@ main {
 
 }
 
+/* media query for very small screen until 490px */
+
+@media screen and (max-width:450px) {
+    .cont-me form {
+        justify-content: center;
+        padding-right: 20px;
+        margin-right: 10px;
+    }
+    
+}
