@@ -297,6 +297,7 @@ h2 {
     height: 350px;
     object-fit: cover;
     border-radius: 10%;
+    margin-left: 10px;
 }
 
 .cupcakes figcaption {
@@ -503,6 +504,7 @@ main {
     .shop aside {
        flex-direction: column;
        padding-right: 10px;
+       padding-bottom: 10px;
     }  
     
     .abt-me, .container-1, .container-2, .container-3, .bottom, .container-text1, .container-pic1 .layer-cakes,
@@ -512,12 +514,17 @@ main {
      
     .contain-thanks {
         justify-content: center;
+        
     }
     
     .cont-me form {
         justify-content: center;
         padding-right: 20px;
         margin-right: 10px;
+    }
+
+    .container-pic3 .cupcakes img {
+        align-items: center;
     }
     
 }

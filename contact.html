@@ -54,31 +54,37 @@
             <form class= "cont-me1" action="thank-you.html" method="get">
                 <h2>Let's talk about your next <em>cake</em> experience</h2>
                 <p><em>(please consider sending the form up to 4 days before you order)</em></p><br>
-                    <p>Your details</p><br>
-                    <label for="fname">Name:</label>
-                    <input type="text" id="fname" name="first-name" required><br><br>
-                    <label for="lname">Last name:</label>
-                    <input type="text" id="lname" name="last-name" required><br><br>
-                    <label for="email">Email address:</label>
-                    <input type="text" id="email" name="email" required><br><br>
-                    <label for="pnumber">Phone number:</label><br><br>
-                    <select id="country" name="country-pref">
-                        <option value="Belgium">+32</option>
-                        <option value="Luxembourg">+352</option>
-                        <option value="France">+33</option>
-                    </select>
-                    <label for="pnumber"></label>
-                    <input type="tel" id="pnumber" name="phone-number" required><br><br>                              
-                    <p>Preferred way of contact</p><br>
-                    <label for="email-1" class="radio1">Email</label>
-                    <input type="radio" id="email-1" name="contact" value="email">
-                    <label for="phone-1" class="radio1">Phone</label>
-                    <input type="radio" id="phone-1" name="contact" value="phone">
-                    <label for="any-contact" class="radio1">Any</label>
-                    <input type="radio" id="any-contact" name="contact" value="any"><br><br>                               
-                    <p>Tell me a little bit more</p><br>
+                <fieldset>
+                    <legend>Your details</legend><br>
+                        <label for="fname">Name:</label>
+                        <input type="text" id="fname" name="first-name" required><br><br>
+                        <label for="lname">Last name:</label>
+                        <input type="text" id="lname" name="last-name" required><br><br>
+                        <label for="email">Email address:</label>
+                        <input type="text" id="email" name="email" required><br><br>
+                        <label for="pnumber">Phone number:</label><br><br>
+                        <select id="country" name="country-pref">
+                            <option value="Belgium">+32</option>
+                            <option value="Luxembourg">+352</option>
+                            <option value="France">+33</option>
+                        </select>
+                        <label for="pnumber"></label>
+                        <input type="tel" id="pnumber" name="phone-number" required><br><br>
+                </fielset>
+                <fieldset>                            
+                    <legend>Preferred way of contact</legend><br>
+                        <label for="email-1" class="radio1">Email</label>
+                        <input type="radio" id="email-1" name="contact" value="email">
+                        <label for="phone-1" class="radio1">Phone</label>
+                        <input type="radio" id="phone-1" name="contact" value="phone">
+                        <label for="any-contact" class="radio1">Any</label>
+                        <input type="radio" id="any-contact" name="contact" value="any"><br><br>
+                </fieldset>
+                <fieldset>                             
+                    <legend>Tell me a little bit more</legend><br>
                     <textarea name="description" id="k-order" cols="40" rows="10"
                         placeholder= "What kind of cake you would like to order?for which occasion?"></textarea><br><br>
+                </fieldset>
                 <input type="submit" value="Contact me" name="contact-me">
             </form>
         </div>
