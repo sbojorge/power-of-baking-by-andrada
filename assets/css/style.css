@@ -150,8 +150,8 @@ h2 {
 }
 
 .reviews #tudor {
-    width: 200px;
-    height: 200px;
+    max-width: 200px;
+    min-height: 200px;
     padding: 2% 1% 0 1%;
     background-color:rgba(193, 93, 239, 1.0);
     border-radius: 10px;					 
@@ -159,15 +159,15 @@ h2 {
 
 .reviews #severine {
     max-width: 275px;
-    max-height: 275px;
+    min-height: 275px;
     padding: 1em;
     background-color: rgba(239, 93, 139, 1.0);
     border-radius: 10px;
 }
 
 .reviews #anca {
-    width: 200px;
-    height: 200px;
+    max-width: 200px;
+    min-height: 200px;
     padding: 3% 1% 0 1%;
     background-color:rgba(239, 193, 93, 1.0);
     border-radius: 10px;
@@ -490,7 +490,6 @@ main {
 @media screen and (max-width:1341px) {
     .links .list-items {
         display: list-item;
-
     }
     
     .reviews {
@@ -525,8 +524,10 @@ main {
        margin: 0 auto;
     }
     
-    .cont-me {
+    .cont-me form {
         justify-content: center;
+        padding-right: 20px;
+        margin-right: 10px;
     }
 
     .nav-bar {
@@ -542,6 +543,11 @@ main {
     .links {
         margin-right: 0;
         margin-left: 0;
+    }
+
+    .reviews {
+        flex-direction: column;
+        gap: 10px;
     }
 
 }
