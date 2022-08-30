@@ -562,6 +562,9 @@ main {
         gap: 10px;
     }
 
+    .container-pic3 .cupcakes img {
+        align-items: center;
+
 }
 
 /* media query for very small screen until 490px */
