@@ -25,13 +25,14 @@ h2 {
 #logo {
     font-family: Parisienne, sans-serif;
     font-size: 300%;
-    margin-bottom: 20px;
-    padding: 10px 0 10px 10px;     
+    margin: 20px 100px;
+    padding: 20px; 
+    text-align: center;    
 }
 
 .nav-bar {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;        
 }
 
@@ -41,7 +42,9 @@ h2 {
 }
 
 .links {
-    list-style: none;   
+    list-style: none;
+    margin-left: 100px;
+    padding-left: 20px;   
 }
 
 .links .list-items {
@@ -208,7 +211,7 @@ h2 {
 }
 
 .container-pic1 .layer-cakes img {
-    width: 40Opx;
+    width: 400px;
     height: 400px;
     border-radius: 10%;
 }
@@ -483,14 +486,13 @@ main {
 }
 
 /* Media queries */
-/* Large to medium screens until 1200px */
-@media screen and (max-width:1200px) {
+/* Large to medium screens until px */
+@media screen and (max-width:1341px) {
     .links .list-items {
         display: list-item;
+
     }
-    #logo {
-        font-size: 150%; 
-    }
+    
     .reviews {
         flex-direction: column;
         gap: 10px;
