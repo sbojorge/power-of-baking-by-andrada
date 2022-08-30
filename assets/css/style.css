@@ -529,5 +529,20 @@ main {
         justify-content: center;
     }
 
+    .nav-bar {
+        justify-content: space-between;
+    }
+
+    #logo {
+        font-size: 150%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .links {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
 }
 
