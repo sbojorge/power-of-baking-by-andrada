@@ -4,6 +4,8 @@ The purpose of the website is to present the commercial offer of Andrada Hincian
 The targeted public are people interested in buying a cake within the geographical area of the province of Luxembourg, specifically the area of the 3 borders: Belgium, Luxembourg and France.
 Those who are looking for a delicious cake prepared by a passionate baker with the delicacy of a "homemade", will obtain on this site an idea of the different types of pastries that Andrada prepares, their quality, as well as the products that she currently offers and their prices. Another advantage of this site is the fact of being able to contact Andrada in order to discuss the type of cake and/or the client's event in order to order a "custom-made" cake.
 
+![printscreen of the amiresponsive result](/assets/images/readme-pic13.webp)
+
 ## Features
 
 ### Existing features
